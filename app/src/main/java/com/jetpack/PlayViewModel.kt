@@ -13,11 +13,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-/**
- * des 关于播放viewModel,播放、播放列表、首页悬浮共用
- *  
- *   /6/28
- */
+
 class PlayViewModel : BaseViewModel() {
 
     /**

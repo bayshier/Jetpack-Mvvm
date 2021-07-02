@@ -10,11 +10,7 @@ import com.jetpack.http.ApiService
 import com.jetpack.http.RetrofitManager
 import kotlinx.coroutines.CoroutineScope
 
-/**
- * des 我的文章
- *   /7/14
- *
- */
+
 class MyArticleRepo(coroutineScope: CoroutineScope, errorLiveData: MutableLiveData<ApiException>) :
     BaseRepository(coroutineScope, errorLiveData) {
 

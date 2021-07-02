@@ -12,11 +12,7 @@ import com.jetpack.BR
 import com.jetpack.R
 import kotlinx.android.synthetic.main.fragment_login.*
 
-/**
- * des 登陆
- *   /7/9
- *
- */
+
 class LoginFragment : BaseVmFragment() {
 
     private lateinit var loginVM: LoginVM

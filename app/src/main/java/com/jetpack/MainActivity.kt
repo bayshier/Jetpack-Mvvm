@@ -10,15 +10,6 @@ import com.jetpack.constants.Constants
 import com.jetpack.play.PlayerManager
 import com.jetpack.ui.MainFragment
 
-/**
- * des 主页面，作用有二
- *     1.用于承载Fragment
- *     2.作为音频播放观察者,接受到通知立即更新viewModel内状态
- *       间接通过DataBinding更新View
- *
- *
- *   -05-12
- */
 class MainActivity : BaseLoadingActivity() {
 
     private var playVM: PlayViewModel? = null

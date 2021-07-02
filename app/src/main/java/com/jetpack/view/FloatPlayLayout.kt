@@ -15,11 +15,7 @@ import kotlinx.android.synthetic.main.play_float_layout.view.*
 import kotlin.math.abs
 
 
-/**
- * des 自定义首页悬浮
- *   /6/28
- *  
- */
+
 class FloatPlayLayout : LinearLayout {
 
     /**

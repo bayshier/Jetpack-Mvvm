@@ -5,11 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.base_library.base.BaseViewModel
 
-/**
- * des 注册
- *   /7/9
- *  
- */
+
 class RegisterVM :BaseViewModel(){
 
     /**

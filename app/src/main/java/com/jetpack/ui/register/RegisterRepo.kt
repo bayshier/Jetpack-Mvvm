@@ -7,11 +7,7 @@ import com.jetpack.http.ApiService
 import com.jetpack.http.RetrofitManager
 import kotlinx.coroutines.CoroutineScope
 
-/**
- * des 登陆
- *   /7/9
- *  
- */
+
 class RegisterRepo(coroutineScope: CoroutineScope, errorLiveData: MutableLiveData<ApiException>) :
     BaseRepository(coroutineScope, errorLiveData) {
 

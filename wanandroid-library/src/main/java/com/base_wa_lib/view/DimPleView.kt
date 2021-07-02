@@ -12,10 +12,6 @@ import kotlin.math.cos
 import kotlin.math.sin
 import kotlin.system.measureTimeMillis
 
-/**
- * Project:NetEasy
- * Created by MLX on 2020/7/26.
- */
 class DimPleView(context: Context?, attrs: AttributeSet?) : View(context, attrs) {
     private var mWidth = 0f
     private var mHeight = 0f

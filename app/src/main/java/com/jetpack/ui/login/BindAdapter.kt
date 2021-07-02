@@ -6,11 +6,7 @@ import android.widget.EditText
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 
-/**
- * des 登陆 db 适配器
- *   /7/9
- *  
- */
+
 object BindAdapter {
 
     /**
