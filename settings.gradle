@@ -1,0 +1,4 @@
+rootProject.name='Jetpack'
+include ':wanandroid-library'
+include ':app'
+include ':base-library'

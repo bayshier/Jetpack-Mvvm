@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+apply from: "../basic.gradle"
+
+android {
+    defaultConfig {
+        applicationId "com.jetpack"
+        versionCode Version.versionCode
+        versionName Version.versionName
+        multiDexEnabled true
+    }
+    dataBinding {
+        enabled = true
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            if (variant.name == 'release'){
+                outputFileName = "玩安卓.apk"
+            } else {
+                outputFileName = "玩安卓-${variant.name}.apk"
+            }
+        }
+    }
+
+
+
+}
+
+dependencies {
+    implementation project(':wanandroid-library')
+    kapt "androidx.room:room-compiler:2.2.3"
+}
